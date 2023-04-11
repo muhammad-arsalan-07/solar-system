@@ -156,7 +156,7 @@ function App() {
               theme: "colored",
             }
           );
-        }, 1000);
+        }, 3000);
       }
     }
   }, [productionData, consumptionData, batteryData, checked]);
