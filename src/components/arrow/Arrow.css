@@ -1,0 +1,33 @@
+.right-to-left {
+  position: relative;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}
+
+@keyframes run {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 90%;
+  }
+}
+
+.left-to-right {
+  position: relative;
+  -webkit-animation: linear infinite;
+  -webkit-animation-name: runTop;
+  -webkit-animation-duration: 5s;
+}
+
+@keyframes runTop {
+  0% {
+    left: -80%;
+
+  }
+  100% {
+    left: -180%;
+
+  }
+}

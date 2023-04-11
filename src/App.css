@@ -1,0 +1,9 @@
+.solar-system {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+}
+
+input {
+  width: 80px;
+}
